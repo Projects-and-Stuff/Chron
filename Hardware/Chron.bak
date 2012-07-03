@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 5/20/2012 12:44:36 AM
+EESchema Schematic File Version 2  date 5/20/2012 12:47:53 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,6 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:Chron
 LIBS:Chron-cache
 EELAYER 25  0
 EELAYER END
@@ -44,6 +45,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L AS1107 U?
+U 1 1 4FB87764
+P 6300 3800
+F 0 "U?" H 6600 2700 60  0000 C CNN
+F 1 "AS1107" H 6100 4900 60  0000 C CNN
+	1    6300 3800
+	1    0    0    -1  
+$EndComp
 $Comp
 L ATTINY4313-S IC?
 U 1 1 4FB87690
